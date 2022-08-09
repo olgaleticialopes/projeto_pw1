@@ -1,4 +1,18 @@
-.corpocor{
-    background-color: darksalmon;
-    color: aliceblue;
+.corpoCor{
+    background-color: rgb(252, 229, 229);
+    color: rgb(0, 0, 0);
+}
+.figura{
+    background-color: rgb(225, 177, 226);
+    width: 60%;
+    padding: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+}
+.imagem{
+    border-radius: 30px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
