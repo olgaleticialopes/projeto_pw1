@@ -22,34 +22,35 @@ body {
   background-color: #2e3559;
 }
 .tabcontent {
+  margin-top: 45px;
   color: white;
   display: none;
   padding: 50px;
   text-align: center;
-  width: 100%;
   height: 560px;
 }
 #banner1 {
   background-image: url("../img/1.png");
   background-position: center;
-  background-repeat: no-repeat;
 }
 #banner2 {
   background-image: url("../img/2.png");
   background-position: center;
-  background-repeat: no-repeat;
 }
 #banner3 {
   background-image: url("../img/3.png");
   background-position: center;
-  background-repeat: no-repeat;
 }
 #banner4 {
   background-image: url("../img/4.png");
   background-position: center;
-  background-repeat: no-repeat;
 }
-
+#bannerForm{
+  background-image: url(../img/4.png);
+  background-position: center;
+  height: 560px;
+  width: 100%;
+}
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -145,4 +146,5 @@ li a:hover:not(.active) {
 .container {
   padding: 2px 16px;
   font-size: medium;
+  height: 120px;
 }
