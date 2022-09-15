@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Projeto PW1</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -27,10 +28,24 @@
     <main>
         <div class="card">
             <div id="bannerForm"></div>
-            <div class="container">
-             <div class="form-container"></div>
+            <div class="container" style="margin-top: 45px; height: 720px;">
+                <div class="form-container">
+                    <h1>Cadrastre-se no DevNomade</h1>
+                    <p>Preencha o formulario para fazer parte desta comunidade:</p>
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="Entre com o seu e-mail." required>
+                    <label for="senha">senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite a senha." required>
+                    <label for="repete-senha">repita a senha.</label>
+                    <input type="password" name="repete-senha" id="repete-senha" placeholder="repetir senha" required>
+                    <button type="submit" class="registerbtn">Registrar</button>
+                    <hr>
+                    <p>para criar sua conta aceite os <a href="#"> termos de uso.</a>.</p>
+                </div>
+                <div class="form-container signin">
+                    <p>Voce ja tem uma conta? <a href="#"> Faça seu login</a>.</p>
+                </div>
             </div>
-        </div>
     </main>
     <footer>
     </footer>
